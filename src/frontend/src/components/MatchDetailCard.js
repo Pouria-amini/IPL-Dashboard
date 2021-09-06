@@ -1,6 +1,7 @@
 import { React } from 'react';
 
 export const MatchDetailCard = ({match}) => {
+    if (!match) return null;
     return (
         <div className="MatchDetailCard">
             <h3>Latest Matches</h3>
